@@ -1,0 +1,54 @@
+body{
+	background-color:#b5a789;
+	margin:0px;
+	text-align:center;/*文字对齐方式*/
+	background-image:url(images/背景图.png);
+}
+
+#container{
+	width:800px;
+	height:850px;
+	background-color:#697580;
+	background:rgba(0,0,0,0.25);/*背景设置不透明度*/
+	margin:0 auto;
+	border-radius:20%;/*圆角*/
+}
+
+/*页面头部*/
+#header{
+	font-family:sans-serif;
+	font-size:200%;
+	color:#954b4b;
+	width:800px;
+	margin:0 auto;/*居中*/
+	padding:20px 0px 20px 0px;
+}
+
+#pagebody{
+	width:50%;
+	margin:0 auto;
+	background-color:#697580;
+	font-size:90%;
+	border:dotted rgba(0,0,0,0.1);/*datted点状,RGBA 是代表Red（红色） Green（绿色） Blue（蓝色）和 Alpha（不透明度）的色彩空间。*/
+	border-width:5px;
+	border-radius:20%;/*圆角*/
+}
+
+
+a:link{
+	color:#cc9999;
+}
+
+a:visited{
+	color:#fff;
+}
+
+
+#footer{
+	width:800px;
+	margin:50px auto;
+	text-align:center;
+	font-size:50%;
+	background-color:#697580;
+	background:rgba(0,0,0,0);
+}

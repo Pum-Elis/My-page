@@ -1,0 +1,67 @@
+body{
+	background-color:#b5a789;
+	margin:0px;
+	background-image:url(images/背景图.png);
+	background-repeat:repeat;
+}
+
+
+/*页面层容器*/
+#container{
+	width:100%;
+}
+
+/*页面头部*/
+#header{
+	font-family:sans-serif;
+	font-size:200%;
+	color:#954b4b;
+	width:800px;
+	margin:0 auto;/*居中*/
+	padding:20px 0px 20px 0px;
+	background-color:#697580;
+	text-align:center;
+}
+
+
+/*页面主体*/
+#pagebody{
+	width:800px;
+	height:800px;
+	background-color:#697580;
+	margin:0 auto;
+}
+
+/*文字部分*/
+#content{
+	width:400px;
+	height:750px;
+	font-family:FZShuTi,方正舒体;
+	font-size:140%;
+	float:left;
+	position:absolute;
+	overflow:auto;
+	color:rgba(0,0,0,0.7);
+}
+
+/*图片部分*/
+#image{
+	width:390px;
+	height:750px;
+	float:right;
+	position:absolute;
+	margin:20px 10px 0px 400px;
+	padding:0px 0px 0px 10px;
+	overflow:auto;/*内容超出时自动设置滚动条*/
+	color:#990033;
+	font-family:LiSu,隶书;
+	font-size:120%;
+}
+
+#footer{
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	font-size:50%;
+	background-color:#697580;
+}
